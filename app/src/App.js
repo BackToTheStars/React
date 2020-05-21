@@ -15,7 +15,8 @@ function App() {
     'Writings',
     'Topology',
     'Architecture',
-    'Music', 'Paintings',
+    'Music',
+    'Paintings',
     'Dance'];
 
   const mainContent1 = 'Plato (/ˈpleɪtoʊ/ PLAY-toe; Greek: Πλάτων Plátōn, pronounced [plá.tɔːn] in Classical Attic; ' +
@@ -37,7 +38,14 @@ function App() {
     ' Metropolitan Area has the third-highest GDP per capita in the world (after Zurich, Switzerland and Oslo, Norway), ' +
     'according to the Brookings Institution.';
 
-  const footerMenu = ['About', 'Help', 'Participate', 'Discussions', 'Projects', 'Goals', 'Plan'];
+  const footerMenu = [
+    'About',
+    'Help',
+    'Participate',
+    'Discussions',
+    'Projects',
+    'Goals',
+    'Plan'];
 
   const clickedItemHeader = (data) => {
     console.log('Top click "' + data + '" propagated 2 levels up to App');
