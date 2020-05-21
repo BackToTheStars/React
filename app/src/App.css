@@ -1,0 +1,22 @@
+
+.mainContent {
+    padding: 0 35px 0 35px;
+}
+.header {
+    padding: 20px 20px 0 20px;
+    color: darkgrey;
+    text-align: left;
+}
+.footer {
+    padding: 0 20px 0 20px;
+    color: deepskyblue;
+    text-align: left;
+
+}
+.topMenuItem {
+    cursor: pointer;
+}
+
+.bottomMenuItem {
+    cursor: pointer;
+}
